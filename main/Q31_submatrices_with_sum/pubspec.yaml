@@ -1,0 +1,7 @@
+name: main
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# dev_dependencies:
+#   lints: ^2.0.0
