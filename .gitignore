@@ -1,8 +1,16 @@
 # VS code
 .vscode
 
-# Mac
-.DS_Store
+# VS code
+.vscode
 
-# My files
-**/Q*.md
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.*.sw[op]
+
