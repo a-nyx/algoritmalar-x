@@ -1,9 +1,6 @@
 # VS code
 .vscode
 
-# VS code
-.vscode
-
 # OS
 .DS_Store
 .DS_Store?
@@ -13,4 +10,3 @@
 ehthumbs.db
 Thumbs.db
 .*.sw[op]
-
