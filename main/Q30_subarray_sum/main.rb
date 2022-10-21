@@ -1,6 +1,7 @@
 # require_relative "solution1"
 # require_relative "solution2"
 require_relative "solution3"
+# require_relative "starter_code"
 
 tests = [
   [40, [2, 3, 9, 14, 6, 11, 21, 9, 17], 3],

@@ -21,7 +21,7 @@
       bool actual_result = Solution2.IsPalindromePermutation2(entry.Key);
       String test_result = actual_result == entry.Value ? "PASSED" : "FAILED";
 
-      if(actual_result != entry.Value)
+      if (actual_result != entry.Value)
       {
         isSuccessful = false;
       }
@@ -32,7 +32,7 @@
           Input: {entry.Key}");
     }
 
-    if(isSuccessful)
+    if (isSuccessful)
     {
       Console.WriteLine("All tests passed. Yay!");
     }

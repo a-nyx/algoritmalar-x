@@ -1,4 +1,6 @@
 var minStack = MinStack1()
+// var minStack = MinStack2()
+// var minStack = MinStack3()
 
 minStack.push(303)
 minStack.push(202)

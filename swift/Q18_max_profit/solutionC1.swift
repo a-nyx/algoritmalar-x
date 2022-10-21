@@ -11,7 +11,6 @@ class SolutionC1 {
   }
 
   func maxProfitForOne(_ prices: [Int], _ start: Int, _ end: Int) -> Int {
-    // Same with solutionA2. [start, end] inclusive range.
     if start + 1 > end {
       return 0
     }

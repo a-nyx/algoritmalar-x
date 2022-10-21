@@ -1,0 +1,6 @@
+# ignore extension-less files
+*
+!*.*
+
+# Swift
+*.o

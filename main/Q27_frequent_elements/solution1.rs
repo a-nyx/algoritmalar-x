@@ -12,7 +12,7 @@ impl Solution {
 
         let mut counts = table.into_iter().collect::<Vec<(i32, i32)>>();
         let k = k as usize;
-        
+
         if counts.len() > k {
             counts.sort_by(|a, b| b.1.cmp(&a.1));
         }

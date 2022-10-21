@@ -23,10 +23,11 @@ func main() {
 		100: false,
 	}
 
-	// search := searchMatrix1
+	search := searchMatrix1
 	// search := searchMatrix2
 	// search := searchMatrix3
-	search := searchMatrix4
+	// search := searchMatrix4
+	// search := searchMatrix5
 
 	for target, answer := range targets {
 		if search(matrix, target) == answer {

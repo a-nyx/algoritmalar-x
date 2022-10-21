@@ -49,7 +49,3 @@ public class Solution3
     return hash;
   }
 }
-
-// Credits:
-// Approach #3: https://leetcode.com/problems/rotate-string/solution/
-// Magic: https://en.wikipedia.org/wiki/Rolling_hash#Polynomial_rolling_hash

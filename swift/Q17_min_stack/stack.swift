@@ -21,7 +21,6 @@ struct Stack {
         return items.removeLast()
     }
 
-    // size needed for solution 2
     var size: Int {
         return items.count
     }

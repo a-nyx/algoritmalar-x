@@ -37,7 +37,6 @@ func findClosestElements2(list []int, k int, number int) []int {
 }
 
 func searchBinary(list []int, number int) int {
-	// find the index of the closest number in the list
 	left := 0
 	right := len(list) - 1
 

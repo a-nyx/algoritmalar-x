@@ -12,6 +12,7 @@ func main() {
 func test(amount int, coins []int, ways int) {
 	isPassed := change1(amount, coins) == ways
 	// isPassed := change2(amount, coins) == ways
+	// isPassed := change3(amount, coins) == ways
 
 	if isPassed {
 		fmt.Println("Passed")

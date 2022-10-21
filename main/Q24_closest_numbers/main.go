@@ -10,6 +10,7 @@ func main() {
 	closest_numbers := findClosestElements1(list, k, number)
 	// closest_numbers := findClosestElements2(list, k, number)
 	// closest_numbers := findClosestElements3(list, k, number)
+	// closest_numbers := findClosestElements4(list, k, number)
 
 	fmt.Println("Closest numbers: ", closest_numbers)
 	fmt.Println("Original list: \t", list)

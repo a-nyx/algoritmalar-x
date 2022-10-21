@@ -1,6 +1,5 @@
 #include <iostream>
 #include <map>
-#include <queue>
 #include <vector>
 using namespace std;
 
@@ -9,45 +8,54 @@ class Solution2 {
   vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
     edgesToGraph(numCourses, prerequisites);
 
-    q = queue<int>();
-    for (int c = 0; c < numCourses; c++) {
-      if (dependants[c] == 0) {
-        q.push(c);
+    isPossible = true;
+    states = vector<State>(numCourses, unvisited);
+
+    for (int course = 0; course < numCourses; course++) {
+      if (states[course] == unvisited) {
+        dfs(course);
       }
     }
 
-    emptyQueue();
-    return schedule.size() == numCourses ? schedule : vector<int>();
+    if (!isPossible) {
+      return vector<int>();
+    }
+
+    reverse(schedule.begin(), schedule.end());
+    return schedule;
   }
 
  private:
-  vector<int> schedule;
   vector<vector<int>> graph;
-  vector<int> dependants;
-  queue<int> q;
+  vector<int> schedule;
+  enum State { unvisited,
+               ongoing,
+               completed };
+  bool isPossible;
+  vector<State> states;
 
   void edgesToGraph(int numCourses, vector<vector<int>>& prerequisites) {
     graph = vector<vector<int>>(numCourses);
-    dependants = vector<int>(numCourses, 0);
-
     for (vector<int>& p : prerequisites) {
       graph[p[1]].push_back(p[0]);
-      dependants[p[0]]++;
     }
   }
 
-  void emptyQueue() {
-    while (!q.empty()) {
-      int current = q.front();
-      q.pop();
-      schedule.push_back(current);
+  void dfs(int course) {
+    if (!isPossible || states[course] == completed) return;
 
-      for (int neighbour : graph[current]) {
-        dependants[neighbour]--;
-        if (dependants[neighbour] == 0) {
-          q.push(neighbour);
-        }
-      }
+    if (states[course] == ongoing) {
+      isPossible = false;
+      return;
     }
+
+    states[course] = ongoing;
+
+    for (int next : graph[course]) {
+      dfs(next);
+    }
+
+    states[course] = completed;
+    schedule.push_back(course);
   }
 };

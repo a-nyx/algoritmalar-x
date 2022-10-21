@@ -10,8 +10,8 @@ class Node {
 class LRUCache {
   late int capacity;
   late HashMap<int, Node> table;
-  late Node f_head; // fake head. its next is the real one.
-  late Node f_tail; // fake tail. its prev is the real one.
+  late Node f_head;
+  late Node f_tail;
 
   LRUCache(int cap) {
     capacity = cap;

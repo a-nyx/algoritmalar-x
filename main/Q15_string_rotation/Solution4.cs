@@ -32,8 +32,6 @@ public class Solution4
 
   public int[] createLPS(string s)
   {
-    // Longest Prefix-Suffix
-    // lps[i] = length of longest prefix and also suffix in [0..i]
     int[] lps = new int[s.Length];
     lps[0] = 0;
     int prevLPS = 0;
@@ -57,7 +55,3 @@ public class Solution4
     return lps;
   }
 }
-
-// Credits:
-// https://www.youtube.com/watch?v=JoF0Z7nVSrA
-// && https://github.com/neetcode-gh/leetcode/blob/main/28-Implement-strStr.py

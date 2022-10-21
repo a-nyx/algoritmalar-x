@@ -18,7 +18,9 @@ class Item {
 public class Solution2 {
 
   public static TreeNode createBST(int[] array) {
-    if (array.length == 0) { return null; }
+    if (array.length == 0) {
+      return null;
+    }
 
     Queue<Item> queue = new LinkedList<>();
     int middleIndex = array.length / 2;

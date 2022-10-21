@@ -4,7 +4,6 @@ class SolutionD2 {
       return 0
     }
 
-    // Find all increasings. Same with Question B2
     var start = 0
     var end = 0
     var transactions = [[Int]]()
@@ -23,9 +22,7 @@ class SolutionD2 {
       transactions.append([start, end])
     }
 
-    // delete or merge until k
     while transactions.count > k {
-      // Find minimum of possible deletions
       var delete_index = 0
       var min_delete_loss = Int.max
       for i in 0 ..< transactions.count {
@@ -36,7 +33,6 @@ class SolutionD2 {
         }
       }
 
-      // Find minimum of possible merges
       var merge_index = 0
       var min_merge_loss = Int.max
       for i in 1 ..< transactions.count {
@@ -47,7 +43,6 @@ class SolutionD2 {
         }
       }
 
-      // should delete or merge?
       if min_delete_loss <= min_merge_loss {
         transactions.remove(at: delete_index)
       } else {
@@ -56,7 +51,6 @@ class SolutionD2 {
       }
     }
 
-    // Sum the remaining transaction profits
     var profit = 0
     for transaction in transactions {
       profit += prices[transaction[1]] - prices[transaction[0]]

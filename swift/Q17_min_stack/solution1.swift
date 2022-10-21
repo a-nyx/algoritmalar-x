@@ -26,7 +26,6 @@ class MinStack1 {
 }
 
 // ARRAY SOLUTION
-
 // class MinStack {
 //   private var stack: [(val: Int, min: Int)] = []
 

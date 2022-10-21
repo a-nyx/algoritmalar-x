@@ -1,8 +1,3 @@
-# ignore extension-less files
-*
-!/**/
-!*.*
-
 # VS code
 .vscode
 
@@ -11,36 +6,3 @@
 
 # My files
 **/Q*.md
-
-# Python
-__pycache__/
-
-# Java
-*.class
-
-# Swift
-*.o
-
-# C#
-bin/
-obj/
-*.csproj
-
-# Go
-go.mod
-
-# Rust
-debug/
-target/
-Cargo.lock
-**/*.rs.bk
-*.pdb
-
-# Dart
-.dart_tool/
-pubspec.lock
-# bin folders ignored for C# above, these ones are being excepted for dart
-!main/Q31*/bin/
-!main/Q32*/bin/
-!main/Q33*/bin/
-!dart/**/bin

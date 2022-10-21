@@ -12,7 +12,6 @@ impl Solution {
                 let index = c as u8 - 'a' as u8;
                 chars[index as usize] += 1;
             }
-
             map.entry(chars).or_insert(vec![]).push(s);
         }
 

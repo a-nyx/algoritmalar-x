@@ -9,11 +9,11 @@ class MinStack2 {
     }
   }
 
-  func pop() {
+  func pop() -> Int {
     if stack.size == minsWithIndex.last![1] {
       minsWithIndex.removeLast()
     }
-    stack.pop()
+    return stack.pop()
   }
 
   func top() -> Int {
@@ -30,7 +30,6 @@ class MinStack2 {
 }
 
 // KEEP MINS IN THE SAME STACK
-
 // class MinStack2 {
 //   private var stack: Stack = .init()
 //   private var minSoFar: Int = .max

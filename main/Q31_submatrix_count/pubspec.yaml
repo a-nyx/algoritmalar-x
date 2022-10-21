@@ -1,0 +1,4 @@
+name: main
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'

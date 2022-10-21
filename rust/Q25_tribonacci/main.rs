@@ -2,6 +2,7 @@
 mod solution2;
 // mod solution3;
 // mod solution4;
+// mod starter_code;
 
 fn main() {
     let tests: [(i32, i32); 7] = [
@@ -19,6 +20,7 @@ fn main() {
         let result = solution2::Solution::tribonacci(tests[i].0);
         // let result = solution3::Solution::tribonacci(tests[i].0);
         // let result = solution4::Solution::tribonacci(tests[i].0);
+        // let result = starter_code::Solution::tribonacci(tests[i].0);
 
         print!(
             "{}\n",

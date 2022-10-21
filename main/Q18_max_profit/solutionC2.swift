@@ -4,7 +4,6 @@ class SolutionC2 {
       return 0
     }
 
-    // Calculate profits from left. Same logic with solutionA2.
     var profits_left = [0]
     var min_left = prices[0]
     var max_profit_left = 0
@@ -19,7 +18,6 @@ class SolutionC2 {
       profits_left.append(max_profit_left)
     }
 
-    // Calculate profits from right. Same logic with solutionA2.
     var profits_right = [0]
     var max_right = prices.last!
     var max_profit_right = 0
@@ -34,7 +32,6 @@ class SolutionC2 {
       profits_right.append(max_profit_right)
     }
 
-    // Calculate max profit
     var max_profit = 0
     for i in 0 ..< prices.count {
       let profit = profits_left[i] + profits_right[prices.count - 1 - i]

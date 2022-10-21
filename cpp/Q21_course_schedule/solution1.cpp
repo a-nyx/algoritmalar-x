@@ -1,5 +1,6 @@
 #include <iostream>
 #include <map>
+#include <queue>
 #include <vector>
 using namespace std;
 
@@ -8,57 +9,45 @@ class Solution1 {
   vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
     edgesToGraph(numCourses, prerequisites);
 
-    schedule = vector<int>();
-    isPossible = true;
-    states = vector<State>(numCourses, unvisited);
-
-    for (int course = 0; course < numCourses; course++) {
-      if (states[course] == unvisited) {
-        dfs(course);
+    q = queue<int>();
+    for (int c = 0; c < numCourses; c++) {
+      if (dependents[c] == 0) {
+        q.push(c);
       }
     }
 
-    if (!isPossible) {
-      return vector<int>();
-    }
-
-    reverse(schedule.begin(), schedule.end());
-    return schedule;
+    emptyQueue();
+    return schedule.size() == numCourses ? schedule : vector<int>();
   }
 
  private:
-  vector<vector<int>> graph;  // pre -> []
   vector<int> schedule;
-  enum State { unvisited,
-               ongoing,
-               completed };
-  bool isPossible;
-  vector<State> states;
+  vector<vector<int>> graph;
+  vector<int> dependents;
+  queue<int> q;
 
   void edgesToGraph(int numCourses, vector<vector<int>>& prerequisites) {
     graph = vector<vector<int>>(numCourses);
+    dependents = vector<int>(numCourses, 0);
+
     for (vector<int>& p : prerequisites) {
       graph[p[1]].push_back(p[0]);
+      dependents[p[0]]++;
     }
   }
 
-  void dfs(int course) {
-    if (!isPossible || states[course] == completed) return;
+  void emptyQueue() {
+    while (!q.empty()) {
+      int current = q.front();
+      q.pop();
+      schedule.push_back(current);
 
-    if (states[course] == ongoing) {
-      isPossible = false;
-      return;
+      for (int next : graph[current]) {
+        dependents[next]--;
+        if (dependents[next] == 0) {
+          q.push(next);
+        }
+      }
     }
-
-    states[course] = ongoing;
-
-    for (int neighbour : graph[course]) {
-      dfs(neighbour);
-    }
-
-    states[course] = completed;
-    schedule.push_back(course);
   }
 };
-
-// see "Topological Sort"

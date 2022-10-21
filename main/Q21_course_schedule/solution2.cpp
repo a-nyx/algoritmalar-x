@@ -26,7 +26,7 @@ class Solution2 {
   }
 
  private:
-  vector<vector<int>> graph;  // pre -> []
+  vector<vector<int>> graph;
   vector<int> schedule;
   enum State { unvisited,
                ongoing,
