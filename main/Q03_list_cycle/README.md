@@ -1,6 +1,6 @@
 # #03: Linked List döngüsü
 
-[Eng] Linked List cycle
+[Eng] Linked List cycle  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/3aucA8n1qeM)
 
 ### Referans

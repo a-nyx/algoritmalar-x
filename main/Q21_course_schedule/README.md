@@ -1,6 +1,6 @@
 # #21: Ders Takvimi
 
-[Eng] Course Schedule
+[Eng] Course Schedule  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/cC-nKxuD4H0)
 
 ### Referans

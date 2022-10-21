@@ -1,6 +1,6 @@
 # #12: Sıralı Diziden BST
 
-[Eng] Sorted Array to BST
+[Eng] Sorted Array to BST  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/uLCfh_AjW6U)
 
 ### Referans

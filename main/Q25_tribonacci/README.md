@@ -1,6 +1,6 @@
 # #25: Tribonacci
 
-[Eng] Tribonacci
+[Eng] Tribonacci  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/9b18IsTmq2A)
 
 ### Referans

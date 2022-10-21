@@ -1,6 +1,6 @@
 # #11: En yakın ortak ata
 
-[Eng] Lowest Common Ancestor
+[Eng] Lowest Common Ancestor  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/BQ-xrTFpa98)
 
 ### Referans

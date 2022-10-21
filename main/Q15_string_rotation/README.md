@@ -1,6 +1,6 @@
 # #15: String döndürme
 
-[Eng] String Rotation
+[Eng] String Rotation  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/-vKEUpch5m8)
 
 ### Referans

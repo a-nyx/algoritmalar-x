@@ -1,6 +1,6 @@
 # #06: Bütün alt kümeler
 
-[Eng] All subsets
+[Eng] All subsets  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/wlFlGOssGKs)
 
 ### Referans

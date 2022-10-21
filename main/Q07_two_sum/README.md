@@ -1,6 +1,6 @@
 # #07: İkili toplam
 
-[Eng] Two Sum
+[Eng] Two Sum  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/n3_e_Y6Y0eA)
 
 ### Referans

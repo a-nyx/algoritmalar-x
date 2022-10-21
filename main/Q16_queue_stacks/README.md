@@ -1,6 +1,6 @@
 # #16: Kuyruk yapısı tasarlama
 
-[Eng] Queue using Stacks
+[Eng] Queue using Stacks  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/pGD_VbLaAaA)
 
 ### Referans

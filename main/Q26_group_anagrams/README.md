@@ -1,6 +1,6 @@
 # #26: Anagram Gruplama
 
-[Eng] Group Anagrams
+[Eng] Group Anagrams  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/8avOdnz5U7s)
 
 ### Referans

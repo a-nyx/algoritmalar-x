@@ -1,6 +1,6 @@
 # #32: Yazılı Sayılar
 
-[Eng] Integer to Words
+[Eng] Integer to Words  
 Çözüm videosu: TBA
 
 ### Referans

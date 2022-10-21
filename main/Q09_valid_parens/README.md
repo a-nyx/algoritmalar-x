@@ -1,6 +1,6 @@
 # #09: Geçerli parantezler
 
-[Eng] Valid Parentheses
+[Eng] Valid Parentheses  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/1deW3bxwWw4)
 
 ### Referans

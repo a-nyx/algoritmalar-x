@@ -1,6 +1,6 @@
 # #02: Linked List bölümleme
 
-[Eng] Partition Linked List
+[Eng] Partition Linked List  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/2ZCleVkx39E)
 
 ### Referans

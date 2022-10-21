@@ -1,6 +1,6 @@
 # #17: Min Stack
 
-[Eng] Min Stack
+[Eng] Min Stack  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/NQW9OsxZFBo)
 
 ### Referans

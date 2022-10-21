@@ -1,6 +1,6 @@
 # #24: Yakın Sayılar
 
-[Eng] Find K Closest Elements
+[Eng] Find K Closest Elements  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/dyvVTubpFu4)
 
 ### Referans

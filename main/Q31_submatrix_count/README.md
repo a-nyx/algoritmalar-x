@@ -1,6 +1,6 @@
 # #31: Matrix Sayma
 
-[Eng] Submatrix count
+[Eng] Submatrix count  
 Çözüm videosu: TBA
 
 ### Referans

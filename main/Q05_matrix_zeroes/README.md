@@ -1,6 +1,6 @@
 # #05: Matris sıfırlama
 
-[Eng] Set Matrix zeroes
+[Eng] Set Matrix zeroes  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/a0YHSnKuhXc)
 
 ### Referans

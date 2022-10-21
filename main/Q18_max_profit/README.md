@@ -1,6 +1,6 @@
 # #18: Maksimum Kâr
 
-[Eng] Max profit
+[Eng] Max profit  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/GYjZJ34ONcM)
 
 ### Referans

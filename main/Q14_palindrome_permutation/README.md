@@ -1,6 +1,6 @@
 # #14: Palindrom yazılır mı?
 
-[Eng] Palindrome Permutation
+[Eng] Palindrome Permutation  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/eRLfUQ5kOZY)
 
 ### Referans

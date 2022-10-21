@@ -1,6 +1,6 @@
 # #01: Sıralanmamış Linked List’ten tekrarları silme
 
-[Eng] Remove duplicates from unsorted Linked List
+[Eng] Remove duplicates from unsorted Linked List  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/6yway1bD144)
 
 ### Referans

@@ -1,6 +1,6 @@
 # #10: Parantez üretme
 
-[Eng] Generate Parentheses
+[Eng] Generate Parentheses  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/jcMVX1_iJHc)
 
 ### Referans

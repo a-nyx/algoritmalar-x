@@ -1,6 +1,6 @@
 # #13: String kısaltma
 
-[Eng] String Compression
+[Eng] String Compression  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/AbPXktJfi6E)
 
 ### Referans

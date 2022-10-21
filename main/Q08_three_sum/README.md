@@ -1,6 +1,6 @@
 # #08: Üçlü toplam
 
-[Eng] Three Sum
+[Eng] Three Sum  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/ThGMFXhqAJk)
 
 ### Referans

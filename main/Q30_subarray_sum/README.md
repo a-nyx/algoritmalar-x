@@ -1,6 +1,6 @@
 # #30: Alt-dizi Toplamı
 
-[Eng] Subarray Sum
+[Eng] Subarray Sum  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/d6FnyukoDrU)
 
 ### Referans

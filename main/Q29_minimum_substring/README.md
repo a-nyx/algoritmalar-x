@@ -1,6 +1,6 @@
 # #29: Minimum String Aralığı
 
-[Eng] Minimum Window Substring
+[Eng] Minimum Window Substring  
 Çözüm videosu: [Youtube/yazilimx](https://youtu.be/Ut1XPGCs-9Y)
 
 ### Referans
