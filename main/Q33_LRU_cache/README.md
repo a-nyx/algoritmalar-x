@@ -1,7 +1,7 @@
 # #33: LRU Cache
 
 [Eng] LRU Cache  
-Çözüm videosu: TBA
+Çözüm videosu: [Youtube/yazilimx](https://youtu.be/LnNCHmEyi6U)
 
 ### Referans
 

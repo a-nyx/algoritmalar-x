@@ -6,11 +6,11 @@ Dil klasörleri zamanla tamamlanacaktır, herhalde galiba sanırsam. Katkı sağ
 
 :tv: [YouTube / Yazılım X](https://www.youtube.com/channel/UCnhVJoxA9HmXueWGUapIhXg) &nbsp;&nbsp;&nbsp; :gem: [Kommunity / Yazılım X](https://kommunity.com/yazilimx) &nbsp;&nbsp;&nbsp; :mushroom: [Slack / Yazılım X](https://join.slack.com/t/yazilimx/shared_invite/zt-zixuqdyf-iyB9ZeyBDl9Co99Q8bXlRw)
 
-| YouTube                             | Soru                                                      | Referans*              | Video dili | 💚 ❤️‍🔥 |
+| YouTube                             | Soru                                                      | Referans\*            | Video dili | 💚 ❤️‍🔥 |
 | ----------------------------------- | --------------------------------------------------------- | --------------------- | ---------- | ----- |
-| [#33]                               | [LRU Cache](main/Q33_LRU_cache/)                          | C 16.25, L 146        | Dart       | ❤️‍🔥    |
-| [#32]                               | [Yazılı Sayılar](main/Q32_int_words/)                     | C 16.8, L 273         | Dart       | 💚    |
-| [#31]                               | [Matrix Sayma](main/Q31_submatrix_count/)                 | ~C 17.24, L 107       | Dart       | ❤️‍🔥    |
+| [#33](https://youtu.be/LnNCHmEyi6U) | [LRU Cache](main/Q33_LRU_cache/)                          | C 16.25, L 146        | Dart       | ❤️‍🔥    |
+| [#32](https://youtu.be/MQlC7cP82JA) | [Yazılı Sayılar](main/Q32_int_words/)                     | C 16.8, L 273         | Dart       | 💚    |
+| [#31](https://youtu.be/d6_33Vuhtu8) | [Matrix Sayma](main/Q31_submatrix_count/)                 | ~C 17.24, L 107       | Dart       | ❤️‍🔥    |
 | [#30](https://youtu.be/d6FnyukoDrU) | [Alt-dizi Toplamı](main/Q30_subarray_sum/)                | L 209                 | Ruby       | ❤️‍🔥    |
 | [#29](https://youtu.be/Ut1XPGCs-9Y) | [Minimum Aralık](main/Q29_minimum_substring/)             | L 76                  | Ruby       | ❤️‍🔥    |
 | [#28](https://youtu.be/fYSBm8yksPY) | [Yağmur Depolama](main/Q28_rain_trap/)                    | C 17.21, L 42         | Ruby       | ❤️‍🔥    |

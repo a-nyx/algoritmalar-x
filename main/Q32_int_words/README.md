@@ -1,7 +1,7 @@
 # #32: Yazılı Sayılar
 
 [Eng] Integer to Words  
-Çözüm videosu: TBA
+Çözüm videosu: [Youtube/yazilimx](https://youtu.be/MQlC7cP82JA)
 
 ### Referans
 

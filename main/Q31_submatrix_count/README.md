@@ -1,7 +1,7 @@
 # #31: Matrix Sayma
 
 [Eng] Submatrix count  
-Çözüm videosu: TBA
+Çözüm videosu: [Youtube/yazilimx](https://youtu.be/d6_33Vuhtu8)
 
 ### Referans
 
