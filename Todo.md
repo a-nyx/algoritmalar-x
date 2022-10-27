@@ -1,7 +1,7 @@
 # ToDo
 
 - [ ] Proofread
-- [ ] Write contribution guide
+- [x] Write contribution guide
 - [ ] Add algo explanations, code comments?
 - [ ] What is next? Continue or not?
 - [ ] CtCI Summary Video
