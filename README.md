@@ -2,7 +2,7 @@
 
 [Yazılım X](https://www.youtube.com/channel/UCnhVJoxA9HmXueWGUapIhXg) YouTube kanalında [Algoritma Soruları](https://youtube.com/playlist?list=PL_GKt2iGS83sST66_u58JLv83c1YaLLh4) listesindeki çözümleri içerir repodur. Videolardaki çözümler ve sorular hakkindaki notlar [main](./main/) klasöründe.
 
-Dil klasörleri zamanla tamamlanacaktır, herhalde galiba sanırsam. Katkı sağlamak, eksik çözümleri tamamlamak isteyen olursa buradan: [Katkı Rehberi](./Contribution.md)
+Dil klasörleri zamanla tamamlanacaktır, herhalde galiba sanırsam. Katkı sağlamak, eksik çözümleri tamamlamak isteyen olursa buradan: [Katkı Rehberi](./CONTRIBUTING.md)
 
 :tv: [YouTube / Yazılım X](https://www.youtube.com/channel/UCnhVJoxA9HmXueWGUapIhXg) &nbsp;&nbsp;&nbsp; :gem: [Kommunity / Yazılım X](https://kommunity.com/yazilimx) &nbsp;&nbsp;&nbsp; :mushroom: [Slack / Yazılım X](https://join.slack.com/t/yazilimx/shared_invite/zt-zixuqdyf-iyB9ZeyBDl9Co99Q8bXlRw)
 
