@@ -1,7 +1,7 @@
 # #00: Artarak ilerleyen en uzun altdizi
 
 [Eng] Longest increasing subsequence  
-Çözüm videosu: [Youtube/yazilimx](https://youtu.be/e0blPVL3EGE)
+Çözüm videosu: [Youtube/yazilimx](https://youtu.be/IGsFRwgw-fA)
 
 ### Referans
 

@@ -41,6 +41,6 @@ Dil klasörleri zamanla tamamlanacaktır, herhalde galiba sanırsam. Katkı sağ
 | [#03](https://youtu.be/3aucA8n1qeM) | [Liste döngüsü](main/Q03_list_cycle/)                     | C 2.8, L 141 & 142    | Python     | 💚    |
 | [#02](https://youtu.be/2ZCleVkx39E) | [Liste bölümleme](main/Q02_partition_list/)               | C 2.4, L 86           | Python     | 💚    |
 | [#01](https://youtu.be/6yway1bD144) | [Tekrarları silme](main/Q01_delete_dups/)                 | C 2.1, ~L 83          | Python     | 💚    |
-| [#00](https://youtu.be/e0blPVL3EGE) | [En uzun altdizi](main/Q00_longest_subseq/)               | L 300                 | Python     | ❤️‍🔥    |
+| [#00](https://youtu.be/IGsFRwgw-fA) | [En uzun altdizi](main/Q00_longest_subseq/)               | L 300                 | Python     | ❤️‍🔥    |
 
 \* C: Cracking the Coding Interview 6th, L: LeetCode
